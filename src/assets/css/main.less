@@ -1,0 +1,189 @@
+
+.container{
+   .row.title{
+     background-color: rgba(213,100,100,1);
+     text-align: center;
+     padding-bottom:10px; 
+     border-radius:4px; 
+      h3{
+        color: #fff;
+        cursor: pointer;
+        text-shadow: 0 1px 5px rgba(94,255,216,.8);
+        letter-spacing: 4px;
+        height: 30px;
+        line-height:30px;
+        small{
+          color: #ddd
+        }
+      }
+      h3:hover{
+        letter-spacing: 20px;
+      }
+   }
+   .row.welcome{
+     background-color: #fff;
+     height: 30px;
+     line-height: 30px;
+     span.glyphicon{
+       color:#56af45;
+       padding:5px 10px 0px 10px;
+       font-size: 16px;
+       vertical-align: -2px;
+       margin-right:0px; 
+     }
+     span{
+       margin-right:20px; 
+       font-size: 12px;
+     }
+   }
+   .row.nav{
+     background-color: #4a4a4a;
+     height: 50px;
+     margin-top: 15px;
+     ul{
+       list-style: none;
+       li{
+         display: inline-block;
+         color: #fff;
+         text-align: center;
+        //  width: 95px;
+        padding: 0px 12px;
+         height: 50px;
+         line-height: 50px;
+         cursor: pointer;
+         font-size:16px;
+       }
+       li.phone-list{
+        position: relative;
+        dl{
+          margin: 0px;
+          padding: 0px;
+          position: absolute;
+          width:110px;
+          z-index: 10;
+          left: -40px;
+          background-color: #4a4a4a;
+          dd{
+            margin-top:5px; 
+            padding: 0px;
+            display: inline-block;
+            width:110px;
+            height: 50px;
+            line-height: 50px;
+            border-bottom:1px solid #ddd;
+          }
+        }
+       }
+       .phone-show{
+        display: none;
+      }
+       .router-link-exact-active{
+         background-color: #D56464 ;
+       }
+       @media screen  and (max-width: 750px){
+          .pc-show{
+            display: none;
+          }
+          .phone-show{
+            display: inline-block;
+            position: relative;
+          }
+        }
+     }
+   }
+   //搜索区域
+   .row.search{
+    h4 {
+      color: #00a67c;
+      padding: 10px 0px;
+      border-bottom: 2px solid #ccc;
+    }
+    ul{
+      margin: 0;
+      padding:0;
+      background-color: #4a4a4a;
+      list-style: none;
+      li{
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+        border-bottom:1px dashed #666; 
+        cursor: pointer;
+        overflow:hidden; 
+        white-space:nowrap;
+        text-overflow:ellipsis;
+      }
+    } 
+    ul::after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+   }
+
+   .row.footer{
+     margin-top:10px; 
+     color:#ddd;
+     padding:20px;
+     background-color: #4a4a4a;
+     ul {
+       list-style: none;
+       text-align: center;
+       li{
+         display: inline-block;
+         padding:0 10px;
+       }
+     }
+     }
+    .row.frendly{
+       h4{
+        color: #00a67c;
+        padding: 10px 0px;
+        border-bottom: 2px solid #ccc;
+       }
+      ul {
+        list-style: none;
+       li{
+         width: 50%;
+         height: 50px;
+         float: left;
+         text-align: center;
+         a{
+           color:#00a67c;
+           font-size:15px;
+         }
+       }
+      }
+    }
+   .footer-next{
+    text-align: center;
+  }
+  // 路由过度效果
+  .fade-enter {
+    opacity:0;
+  }
+  .fade-leave{
+    opacity:1;
+  }
+  .fade-enter-active{
+    transition:opacity .5s;
+  }
+  .fade-leave-active{
+    opacity:0;
+    transition:opacity .5s;
+  }
+   @media screen  and (max-width: 800px){
+    .pc-show{
+      display: none;
+    }
+    .row.nav{
+      ul{
+        li{
+          padding: 0px 10px;
+        
+        }
+      }
+    }
+   }
+  }
