@@ -3,10 +3,15 @@
      <h4>
       关于本站
     </h4>
-    <p style="height:80px;">
-      本站全部内容为博主自主研发，其中大部分模仿WordPress欲思主题|前端采用bootstrap+vue单页面模式,后端采用nodejs的express框架,
+    <p >
+      本站全部内容为博主自主研发，其中大部分模仿WordPress欲思主题|前端采用bootstrap+vue单页面模式。
+      <br>
+      后端采用nodejs的express框架,
+       <br>
       数据库采用MySQL。
-      博客的后台管理根据实际需求采用jquery和vue。
+      <br>
+      博客的后台管理根据实际需求采用jQuery和Vue。
+       <br>
       服务器
     </p>
     <hr />
@@ -101,9 +106,9 @@ background-color: #fff;
     background-color: #81C1F2;
   }
   p{
-    text-align: center;
+    text-align: left;
     font-size:16px;
-    font-weight:bold; 
+    font-weight:500; 
     height: 40px;
     line-height: 40px;
   }
