@@ -12,7 +12,7 @@
       <br>
       博客的后台管理根据实际需求采用jQuery和Vue。
        <br>
-      服务器
+      服务器采用Linux-centos7,腾讯云
     </p>
     <hr />
     <h4>
@@ -109,8 +109,8 @@ background-color: #fff;
     text-align: left;
     font-size:16px;
     font-weight:500; 
-    height: 40px;
     line-height: 40px;
+    padding-left:10px;
   }
   div{
     padding:10px;
