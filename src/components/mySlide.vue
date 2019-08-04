@@ -1,7 +1,7 @@
 <template>
   <div class="row slide">
-    <a href="#" v-for="(imgSrc,index) in imgArr" :key="index" :style="{...slideStyle[index]}" @mouseenter="stopMove" @mouseleave="startMove">
-      <img class="slide-img" :src="imgSrc" alt="云智网络工作室" >
+    <a href="#" v-for="(imgSrc,index) in imgArr" :key="index" :style="{...slideStyle[index]}" @mouseenter="stopMove" @click.prevent="clickImg(index)" @mouseleave="startMove">
+      <img class="slide-img" :src="imgSrc" alt="云智网络工作室"  /> 
     </a>
       <span class="glyphicon glyphicon-chevron-left"  v-show="showBtn" @click="clickLeft">
         </span>
@@ -287,6 +287,15 @@ export default {
                        this.animate(ele,'left');
                   }
               });
+    },
+    clickImg(index){
+      if(index == 0 ){
+       this.$router.push({ path: '/home' })
+      }else if(index == 1){
+         this.$router.push({ path: '/work' })
+      }else{
+         this.$router.push({ path: '/about' })
+      }
     }
   },
   computed: {},
