@@ -2,8 +2,7 @@
   <div id="app" class="container">
     <div class="row title">
       <h3>
-        云智网络工作室
-        <small>山东东营</small>
+        朱玉琳个人博客
       </h3>
     </div>
     <div class="row welcome">
