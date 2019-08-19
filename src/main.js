@@ -18,7 +18,8 @@ router.beforeEach((to, from, next) => {
     'support':'赞助我',
     'work':'业务合作',
     'about':'关于',
-    'msg':'给我留言'
+    'msg':'给我留言',
+    'weixin':'微信小程序'
   }
   let routeName = to.params.id || to.name;
   store.commit('setMap',routeMap[routeName]);

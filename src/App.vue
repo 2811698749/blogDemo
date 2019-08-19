@@ -27,6 +27,7 @@
         <router-link tag="li" class="pc-show" :to="{name:'article',params:{ id:'webpack' }}">Webpack</router-link>
         <router-link tag="li" class="pc-show" :to="{name:'article',params:{ id:'vue' }}">Vue</router-link>
         <router-link tag="li" class="pc-show" :to="{name:'article',params:{ id:'node' }}">Nodejs</router-link>
+          <router-link tag="li" class="pc-show" :to="{name:'article',params:{ id:'weixin' }}">微信小程序</router-link>
         <router-link
           tag="li"
           class="pc-show"
@@ -46,6 +47,7 @@
             <router-link tag="dd" :to="{name:'article',params:{ id:'webpack' }}">Webpack</router-link>
             <router-link tag="dd" :to="{name:'article',params:{ id:'vue' }}">Vue</router-link>
             <router-link tag="dd" :to="{name:'article',params:{ id:'node' }}">Nodejs</router-link>
+              <router-link tag="dd" :to="{name:'article',params:{ id:'weixin' }}">微信小程序</router-link>
             <router-link tag="dd" :to="{name:'article',params:{ id:'centos' }}">centos7建站</router-link>
             <router-link tag="dd" to="/msg">给我留言</router-link>
           </dl>
