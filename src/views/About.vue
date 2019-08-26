@@ -30,7 +30,7 @@
       我的技能树
     </h5>
     <h5 class="skill">
-      前端：原生js、jQuery、Vue
+      前端：原生js、jQuery、Vue、React
     </h5>
       <h5 class="skill">
        微信小程序
@@ -66,7 +66,7 @@
         企业级官网
     </h5>
      <h5 class="skill">
-       jQuery、Vue组件开发
+       jQuery、Vue组件开发、React组件开发
     </h5>
      <h5 class="skill">
        ...更多技能领悟中...
